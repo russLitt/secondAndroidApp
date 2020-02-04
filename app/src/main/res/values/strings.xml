@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">secondapp</string>
+    <string name="edit_term_name">Enter Term Name</string>
+    <string name="pick_term_start">Select Term Start Date</string>
+    <string name="pick_term_end">Select Term End Date</string>
+    <string name="enter_term_info">Enter Term Information</string>
 </resources>

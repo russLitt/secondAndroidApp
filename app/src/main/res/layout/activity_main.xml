@@ -10,37 +10,66 @@
         android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="56dp"
         android:ems="10"
+        android:hint="@string/edit_term_name"
         android:inputType="textPersonName"
-        android:hint="Enter name of term"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="188dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginBottom="8dp"
+        android:text="Select Term Start Date:"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/datePicker1"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <DatePicker
         android:id="@+id/datePicker1"
         android:layout_width="248dp"
         android:layout_height="76dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="96dp"
         android:calendarViewShown="false"
         android:datePickerMode="spinner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="188dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginBottom="8dp"
+        android:text="Select Term End Date:"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/datePicker2"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <DatePicker
         android:id="@+id/datePicker2"
         android:layout_width="248dp"
         android:layout_height="76dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
         android:calendarViewShown="false"
         android:datePickerMode="spinner"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/datePicker1" />
 
     <Button
@@ -48,7 +77,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:text="Button"
+        android:hint="@string/enter_term_info"
+        android:text="Enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
