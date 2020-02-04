@@ -78,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:hint="@string/enter_term_info"
+        android:onClick="enterTermInfo"
         android:text="Enter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
